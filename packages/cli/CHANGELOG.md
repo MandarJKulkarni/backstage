@@ -1,5 +1,23 @@
 # @backstage/cli
 
+## 0.29.0-next.1
+
+### Patch Changes
+
+- 6b2888c: Fixed an issue with the `--successCache` flag for `repo test` where the tree hash for the wrong package directory would sometimes be used to generate the cache key.
+- 702f41d: Bumped dev dependencies `@types/node`
+- Updated dependencies
+  - @backstage/cli-common@0.1.15-next.0
+  - @backstage/catalog-model@1.7.0
+  - @backstage/cli-node@0.2.10-next.0
+  - @backstage/config@1.2.0
+  - @backstage/config-loader@1.9.2-next.0
+  - @backstage/errors@1.2.4
+  - @backstage/eslint-plugin@0.1.10
+  - @backstage/integration@1.15.1
+  - @backstage/release-manifests@0.0.11
+  - @backstage/types@1.1.1
+
 ## 0.29.0-next.0
 
 ### Minor Changes
